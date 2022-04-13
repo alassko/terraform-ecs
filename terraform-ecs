@@ -1,13 +1,12 @@
+provider "aws"  {
 
+    region     = "us-east-1"
 
+    access_key = "variable"
 
+    secret_key = "variable"
 
-
-
-
-
-
-
+}
 
 module "ecs" {
   source  = "terraform-aws-modules/ecs/aws"
