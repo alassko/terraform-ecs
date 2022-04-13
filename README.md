@@ -1,3 +1,4 @@
+OPTION2:
 For this project creating ECS in AWS using Terraform to secure my credentials i used AWS-CLI 
 the Terraform config file is defined as terraform-ecs.tf
 For CI/CD tool i used Jenkins.Basically I first integrated jenkins with docker to create a docker image Jenkins will use the dockerfile in this project to build an image and the image need to be in ECR.For Jenkins to do this task i installed Git in Jenkins server Github plugins in Jenkins CLoudbees Docker build and publish plugins and also to integrate Jenkins with ECR we need to install ECR pluging in Jenkins.TO create this image I define the specific Github repo in Jenkins config and Jenkins will use the Dockerfile to create the image.
